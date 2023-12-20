@@ -3,9 +3,7 @@
   padding: 1rem 8rem 0rem 16rem; 
 }
 .h-wrapper{
-    /* background:var(--black); */
-    background-color: #0d0d0d;
-    color:white;
+       color:white;
  }
  .h-menu{
     gap: 2rem;
@@ -17,4 +15,9 @@
  }
  .h-menu > *:hover{
     cursor: pointer;
+ }
+ .logo{
+   font-size: 32px;
+   font-family: sans-serif;
+   font-weight: 900;
  }

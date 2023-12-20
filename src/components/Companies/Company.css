@@ -1,0 +1,8 @@
+.c_container{
+    gap: 4rem;
+    padding-top: 0.5rem;
+}
+.c_container>img{
+    width: 6rem;
+    color: grey;
+}

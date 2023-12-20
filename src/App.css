@@ -1,4 +1,4 @@
-.App {
+/* .App {
   text-align: center;
 }
 
@@ -35,4 +35,21 @@
   to {
     transform: rotate(360deg);
   }
+} */
+
+.Apps{
+  position:relative;
+  overflow-x: clip;
+}
+.Apps>:nth-child(1){
+ background-color: #0d0d0d;
+ position:relative;
+}
+.white-gradient{
+  position: absolute;
+  width: 15rem;
+  height: 15rem;
+  background: rgb(255, 255, 255,0.522);
+  filter:blur(100px);
+  border-radius:100px;
 }

@@ -2,13 +2,13 @@
     color: white;
     position: relative;
     padding-bottom: 2rem;
-    background-color: #0d0d0d;
 }
 .hero_container{
     display: flex;
      align-items: center;
      justify-content: center;
-     gap: 10rem;
+     gap: 7rem;
+     padding-bottom: 0px;
 }
 /* right side */
 .image_container{
@@ -29,8 +29,8 @@
     background-color: orange;
     border-radius: 999px;
     position: absolute;
-    right: 66%;
-    top: 6%;
+    right: 64.6%;
+    top: 7%;
 }
 .hero_title{
     position:relative;
@@ -61,7 +61,7 @@
 .stats {
     width: 100%;
     justify-content: space-betweenfa;
-    margin-top: 3rem;
+    margin-top: 24px;
 }
 .stat>:nth-child(1){
     font-size: 2rem;
@@ -73,4 +73,8 @@
 .stat>:last-child{
     font-size: 12px;
     padding-left: 30px;
+    color: rgb(134, 131, 131);
+}
+.secondary_text{
+    color: rgb(134, 131, 131);
 }

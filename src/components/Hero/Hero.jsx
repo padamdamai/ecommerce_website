@@ -13,8 +13,8 @@ const Hero = () => {
 						<h1>DISCOVER <br/>MOST SUITABLE <br/>PROPERTY</h1>
 					</div>
 					<div className="hero_desc">
-						<span>Find variety of properties that suite you very easily</span><br/>
-						<span>Forgot all difficulties in finding of residence for you</span>
+						<span className='secondary_text'>Find variety of properties that suite you very easily</span><br/>
+						<span className='secondary_text'>Forgot all difficulties in finding of residence for you</span>
 					</div>
 					  <div className="search_bar">
 						<HiLocationMarker  color="blue" size={25}/>
@@ -48,7 +48,7 @@ const Hero = () => {
 				{/* right side */}
 				<div className="flexCenter hero-right">
 					<div className="image_container">
-						<img src="heroImge.png" alt="hero-image" />
+						<img src="heroImge.png" alt="hero_image" />
 					</div>
 
 
