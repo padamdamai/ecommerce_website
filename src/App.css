@@ -53,3 +53,10 @@
   filter:blur(100px);
   border-radius:100px;
 }
+.residencies{
+ justify-content: center;
+ width: 100%;
+ max-width: 84%;
+ margin-left: 7rem;
+ 
+}

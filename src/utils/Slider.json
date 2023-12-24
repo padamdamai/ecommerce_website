@@ -1,0 +1,38 @@
+[
+    {
+        "name":"padam damai",
+        "price":"545,23",
+        "details":"Nepal-kathmandu,kalanki,ward no 23",
+        "image":"./r1.png"
+    },
+    {
+        "name":"Niraj kumar sharma",
+        "price":"745,23",
+        "details":"Nepal-Lalitpur,bhaisapati,ward no 3",
+        "image":"./r2.png"
+    },
+    {
+        "name":"Bipesh nath yogi",
+        "price":"345,23",
+        "details":"Nepal-Bhaktapur,godawari,ward no 11",
+        "image":"./r3.png"
+    },
+    {
+        "name":"Gunjan lakwa limbu",
+        "price":"245,23",
+        "details":"Nepal-Nepaljung,kolpur,ward no 1",
+        "image":"./r4.png"
+    },
+    {
+        "name":"Sher Bahadur rai",
+        "price":"645,23",
+        "details":"Nepal-Surkhet,bus-park,ward no 9",
+        "image":"./r5.png"
+    },
+    {
+        "name":"Kriti Chetttri Dangi",
+        "price":"545,23",
+        "details":"Nepal-Dang,Bhalubang,ward no 5",
+        "image":"./r6.png"
+    }
+]

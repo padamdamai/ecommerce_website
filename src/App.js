@@ -13,7 +13,9 @@ function App() {
           <Hero/>
         </div>
         <Company/>
-        <Residencies/>
+        <div className="residencies">
+           <Residencies />
+        </div>
      </div>
   );
 }
