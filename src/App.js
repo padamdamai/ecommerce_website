@@ -4,6 +4,7 @@ import Header from './components/Header/Header'
 import Hero from './components/Hero/Hero'
 import { Company } from './components/Companies/Company';
 import Residencies from './components/Residencies/Residencies';
+import Values from './components/Value/Values';
 function App() {
   return (
     <div className = "Apps"> 
@@ -16,6 +17,7 @@ function App() {
         <div className="residencies">
            <Residencies />
         </div>
+        <Values/>
      </div>
   );
 }
