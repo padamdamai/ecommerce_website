@@ -20,7 +20,7 @@ const Values = () => {
     <div className="paddings innerWidth flexCenter v_container">
       {/* left side  */}
       <div className="v_left">
-        <div className="image_container">
+        <div className="image_container image_holder ">
           <img src="./value.png" alt="value image" />
         </div>
       </div>

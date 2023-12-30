@@ -8,7 +8,11 @@
     color: rgb(140 139 139);
    
 }
-.v_coneriner .image_container{
+.image_holder{
+    height: 28.3rem;
+  width: 26rem;
+}
+.v_container .image_container{
     border: 8px solid rgb(232 232 232 /93%);
 }
 .v_container >div{
@@ -21,23 +25,21 @@
     margin-top: 2rem;
     border: none;
 }  
-.accortionItem{
-    background: white;
-    border: 0. 8px solid rgba(128,128,128,0.143);
+.accordionItem{
+    background:whitesmoke;
     border-radius: 8px;
     overflow: hidden;
     margin-bottom: 20px;
-}
-.accordionItem.expanded{
-    box-shadow:5px 10px #888888;;
+    padding: 1rem;
+    margin-right: 1rem;
 }
 
 .accordionButton{
        background: white;
-       padding: 1rem;
        width: 100%;
        justify-content: space-between;
        cursor: pointer;
+       /* background-color: #fbf5f5; */
 }
 .icon{
     padding: 10px;
