@@ -6,6 +6,8 @@ import { Company } from './components/Companies/Company';
 import Residencies from './components/Residencies/Residencies';
 import Values from './components/Value/Values';
 import Contact from './components/Contact/Contact'
+import GetStarted from './components/GetStarted/GetStarted'
+import Footer from './components/Footer/Footer'
 function App() {
   return (
     <div className = "Apps"> 
@@ -20,6 +22,8 @@ function App() {
         </div>
         <Values/>
         <Contact/>
+        <GetStarted/>
+        <Footer/>
      </div>
   );
 }
