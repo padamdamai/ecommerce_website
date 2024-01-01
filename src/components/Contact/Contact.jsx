@@ -10,14 +10,14 @@ const Contact = () => {
         <div className="paddings innerWidth flexCenter c_contaiiner">
             {/* left side */}
             <div className="c_left">
-                <span className='orangeText'>Our Contacts</span>
-                <span className='primaryText'>Easy to Contact us</span>
+                <span className='orangeText contact_head'>Our Contacts</span>
+                <span className='primaryText contact_head'>Easy to Contact us</span>
                 <span className='secondaryText2'>We are always ready to help by providing the best  service <br/> that believe 
                 a good place to live can make your better </span>
             
             <div className="flexColStart contactModes">
                 {/* first row */}
-               <div className="flexColStart row">
+               <div className="flexStart row">
                <div className="flexColStart mode">
                     <div className="flexStart">
                         <div className="flexCenter icon">
@@ -30,40 +30,9 @@ const Contact = () => {
                     </div>
                     <div className='button'>Call now</div>
                 </div>
-
-                {/* second row */}
-                <div className="mode">
-                    <div className="flexStart">
-                        <div className="flexCenter icon">
-                            <BsFillChatDotsFill size={25}/>
-                        </div>
-                        <div className=" flexColStart details">
-                            <span className='primaryText'>Video</span>
-                            <span className='number'>021 123 134 14</span>
-                        </div>
-                    </div>
-                    <div className='button'>Video Call</div>
-                </div>
-
-
-
-                {/* fourth mode */}
-                <div className="flexColStart mode">
-                    <div className="flexStart">
-                        <div className="flexCenter icon">
-                            <HiChatBubbleBottomCenter size={25}/>
-                        </div>
-                        <div className=" flexColStart details">
-                            <span className='primaryText'>Message</span>
-                            <span className='number'>021 123 134 14</span>
-                        </div>
-                    </div>
-                    <div className='button'>Message Call</div>
-                </div>
-
-
+                
                 {/* second mode */}
-                <div className="flexColStart mode">
+                 <div className="flexColStart mode">
                     <div className="flexStart">
                         <div className="flexCenter icon">
                             <BsFillChatDotsFill size={25}/>
@@ -76,6 +45,36 @@ const Contact = () => {
                     <div className='button'>Chat now</div>
                 </div>
                </div>
+
+                {/* second row */}
+                <div className="flexStart row">
+               <div className="flexColStart mode">
+                    <div className="flexStart">
+                        <div className="flexCenter icon">
+                            <BsFillChatDotsFill size={25}/>
+                        </div>
+                        <div className=" flexColStart details">
+                            <span className='primaryText'>Video Call</span>
+                            <span className='number'>021 123 134 14</span>
+                        </div>
+                    </div>
+                    <div className='button'>Vido Call Now</div>
+                </div>
+                
+                {/* fourth mode */}
+                 <div className="flexColStart mode">
+                    <div className="flexStart">
+                        <div className="flexCenter icon">
+                            <HiChatBubbleBottomCenter size={25}/>
+                        </div>
+                        <div className=" flexColStart details">
+                            <span className='primaryText'>Message</span>
+                            <span className='number'>021 123 134 14</span>
+                        </div>
+                    </div>
+                    <div className='button'>Message now</div>
+                </div>
+               </div>               
             </div>
             
             </div>

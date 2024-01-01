@@ -20,7 +20,7 @@
 .image_container{
   margin-left: 2rem;
   height: 28.3rem;
-  width: 26rem;;
+  width: 26rem;
 }
 .button{
   font-weight:500;
@@ -48,6 +48,11 @@
   color: #1f3e72;
   font-weight: bold;
   font-size: 2rem;
+}
+.secondaryText2{
+  font-size: 1.2rem;
+  color: rgb(140 139 139);
+  padding-left: 59px;
 }
 
 @media (min-width : 1536px){
