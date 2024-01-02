@@ -1,5 +1,5 @@
 import React from 'react'
-
+import './Footer.css'
 const Footer = () => {
   return (
         <section className="f_wrapper">
@@ -8,11 +8,11 @@ const Footer = () => {
 
                 {/* left side */}
                 <div className="flexcolStart f_left">
-                    <img src="./logo2.png" alt="secondlogo" />
+                    <div className='zyrundo'>zyrundo</div>
                     <br/>
                     <span className='secondaryText4'>
                         Our Vision is to make all people <br/>
-                        the best place to live for them.
+                      <p>the best place to live for them.</p>
                     </span>
                 </div>
 
