@@ -25,3 +25,15 @@
   .f_right .primaryText {
     margin-left: 3.3rem;
   }
+
+  @media only screen and (-webkit-min-device-pixel-ratio: 2.625) {
+   .f_left{
+    margin-right: 5rem;
+   }
+   .f_container {
+    margin: 2rem -7rem 4rem -6rem;
+    }
+  .f_right{
+    margin-left: 9rem;
+  }
+}

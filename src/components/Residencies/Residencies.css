@@ -65,3 +65,15 @@ padding: 0.2rem 0.8rem;
 .swiper{
     padding-top: 4rem;
 }
+
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2.625) {
+
+    .r_card > img {
+        width: 18rem;
+        max-width: 60rem;
+        border-radius: 15px;
+        height: 12rem;
+      }
+
+}

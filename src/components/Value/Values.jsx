@@ -28,7 +28,7 @@ const Values = () => {
       <div className="v_right">
         <span className='orangeText'>Our Value</span><br/>
         <span className='primaryText'>Value we give to you</span><br/>
-        <span className='secondaryText3'>We always ready to help by providing the best service for you
+        <span className='wantedText'>We always ready to help by providing the best service for you
         <br/>
         We believe a good place to live can make your life better 
         </span>

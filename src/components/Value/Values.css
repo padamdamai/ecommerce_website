@@ -3,9 +3,9 @@
     color: rgb(140 139 139);
     padding-left: 43px;
 }
-.secondaryText3{
+.wantedText{
     font-size: 1.2rem;
-    color: rgb(140 139 139);
+    color:rgb(192, 180, 180)
    
 }
 .image_holder{
@@ -51,4 +51,14 @@
 }
 .accordionButton .primaryText{
     font-size: 1.1rem;
+}
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2.625) {
+
+    .image_holder {
+        height: 27.3rem;
+        width: 22rem;
+        margin-right: 2.1rem;
+        margin-top: -6rem;
+      }
 }
