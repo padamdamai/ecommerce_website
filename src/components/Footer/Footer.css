@@ -1,0 +1,27 @@
+.f_menu{
+    margin-right: 9rem;
+}
+.f_left{
+    margin-left: 2rem;
+}
+.f_left .zyrundo {
+    margin-left: 9rem;
+    font-weight: 600;
+    font-size: 2rem;
+    font-family:monospace;
+  }
+  .f_container {
+    justify-content: space-between;
+    margin: 2rem 6rem 3rem 13rem;
+  }
+  .secondaryText4 {
+    font-size: 1.2rem;
+    color: rgb(140 139 139);
+    padding-left: 58px;
+  }
+  .secondaryText4 p{
+    margin-left:3.9rem;
+  }
+  .f_right .primaryText {
+    margin-left: 3.3rem;
+  }
