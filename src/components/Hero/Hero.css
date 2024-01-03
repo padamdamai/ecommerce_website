@@ -6,8 +6,8 @@
 .hero_container{
     display: flex;
      align-items: center;
-     justify-content: center;
-     gap: 7rem;
+     justify-content: space-around;
+     gap: 0rem;
      padding-bottom: 0px;
 }
 /* right side */
@@ -29,12 +29,12 @@
     background-color: orange;
     border-radius: 999px;
     position: absolute;
-    right: 64.6%;
+    right:69.6%;
     top: 7%;
+    
 }
 .hero_title{
     position:relative;
-    z-index: 1;
     margin-bottom: 1rem;
 }
 .hero_title>h1{
